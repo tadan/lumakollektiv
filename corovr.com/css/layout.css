@@ -1,0 +1,93 @@
+*{
+	font-family: 'Saira Semi Condensed', sans-serif !important;
+}
+body{
+	background-color:black;
+	color:#fff;
+	height:600px !important;
+	margin:0;
+}
+.credits{
+	display: inline-block;
+	margin:2em;
+	vertical-align: central;
+	width:200px;
+}
+
+.coro{
+	width:30%;
+	margin:1em auto;
+}
+
+h1{
+	margin:10px 0;
+	text-align: center;
+}
+h2{
+	font-weight: 300;
+	font-size: 4em;
+	text-align: center;	
+}
+h4{
+	font-weight: 600;
+	font-size: 1em;
+}
+.coro-vd{
+	width: 100% !important;
+}
+.coro-vd > iframe{
+	margin:20px auto;
+	display:block !important;
+}
+p{
+	font-size:.8em;
+}
+.privacy{
+	width:60%;
+	text-align: center;
+}
+
+.footer{
+	bottom:10px !important;
+	height:50px;
+	font-size: 0.7em;
+}
+a{
+	color:#fff;
+}
+/* -------- CONTACT FORM ---------- */
+.form-control{
+	border:none;
+}
+
+input.btn{
+	margin:20px 0;
+	background-color: #35feb2;
+	color:black;
+	border-color: #35feb2;
+	float:right;
+}
+input.btn:hover{
+	background-color: #20a773;
+	border-color: #20a773;
+}
+textarea.form-control{
+	padding-left:0px;
+	width:90%;
+}
+
+#footer{
+	bottom:0px;
+	position: absolute;
+}
+/* ---------- MOBILE DEVICEs ----------- */
+@media screen and (max-width:768px) {
+	h2{
+		font-weight: 300;
+		font-size: 1em;
+	}
+	.form-control{
+		border:none;
+		width:100%;
+	}
+}
