@@ -1,5 +1,4 @@
 
-------------------------------------- */
 body {
 		background: #ffffff;
     font-family: 'Source Sans Pro', sans-serif;
@@ -412,7 +411,8 @@ a.icon {
 .header-eight .header-thumb
 .header-nine .header-thumb
 .header-eleven .header-thumb
-.header-thirteen .header-thumb {
+.header-thirteen .header-thumb
+.header-fifteen .header-thumb {
   padding: 32px 20px 32px 20px !important;
 }
 
@@ -421,7 +421,8 @@ a.icon {
 .header-five, .header-six,
 .header-seven, .header-eight, 
 .header-nine, .header-ten,
-.header-eleven, .header-thirteen {
+.header-eleven, .header-thirteen,
+.header.header-fifteen {
   height: 42vh !important;
   min-height: 420px;
   padding-top: 120px !important;
@@ -475,7 +476,9 @@ a.icon {
 .header-fourteen {
   background: url('../images/jpeg/aura/headline.jpg') no-repeat;
 }
-
+.header-fifteen {
+  background: url('../images/jpeg/delivar/heading.jpg') no-repeat;
+}
 
 /* Portfolio section styles
 /* ========================================== */
