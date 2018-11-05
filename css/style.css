@@ -429,7 +429,6 @@ a.icon {
 }
 
 .header-index {
-  background: url('../images/jpeg/.jpg') no-repeat;
   height: 60vh !important;
   max-height: 320px;
   padding-top: 0px !important;

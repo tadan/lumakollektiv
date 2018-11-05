@@ -7,7 +7,7 @@ $(window).load(function(){
 
 
  /* Google Map
------------------------------------------------*/
+-----------------------------------------------
 var map = '';
 var center;
 
@@ -44,7 +44,7 @@ $(function(){
   loadGoogleMap();
 });
 
-
+*/
 /* Istope Portfolio
 -----------------------------------------------*/
 jQuery(document).ready(function($){
