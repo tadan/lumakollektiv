@@ -1,374 +1,610 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="keywords" content="">
-	<meta name="description" content="">
-      <link rel='shortcut icon' href='images/favicon.ico' type='image/x-icon'>
-      <script
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="keywords" content="" />
+        <meta name="description" content="" />
+        <link
+            rel="shortcut icon"
+            href="images/favicon.ico"
+            type="image/x-icon"
+        />
+        <script
             src="https://code.jquery.com/jquery-1.12.4.min.js"
             integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
-            crossorigin="anonymous"></script>
-      <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-      <!-- Global site tag (gtag.js) - Google Analytics -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113926433-1"></script>
-      <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+            crossorigin="anonymous"
+        ></script>
+        <link
+            rel="stylesheet"
+            href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+        />
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=UA-113926433-1"
+        ></script>
+        <script>
+            window.dataLayer = window.dataLayer || []
+            function gtag() {
+                dataLayer.push(arguments)
+            }
+            gtag('js', new Date())
 
-      gtag('config', 'UA-113926433-1');
-      </script>
-	<!-- Site title
+            gtag('config', 'UA-113926433-1')
+        </script>
+        <!-- Site title
    ================================================== -->
-	<title>Luma Kollektiv</title>
-	<!-- Bootstrap CSS
+        <title>Luma Kollektiv</title>
+        <!-- Bootstrap CSS
    ================================================== -->
-      <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link
+            rel="stylesheet"
+            href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+        />
 
-	<!-- Animate CSS
+        <!-- Animate CSS
    ================================================== -->
-	<link rel="stylesheet" href="css/animate.min.css">
+        <link rel="stylesheet" href="css/animate.min.css" />
 
-	<!-- Font Icons CSS
+        <!-- Font Icons CSS
    ================================================== -->
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/ionicons.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css" />
+        <link rel="stylesheet" href="css/ionicons.min.css" />
 
-	<!-- Main CSS
+        <!-- Main CSS
    ================================================== -->
-	<link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style.css" />
 
-	<!-- Google web font 
-   ================================================== -->	
-  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css'>
-   <!-- SEO Metadata -->
-   <!-- SEO -->
-		<meta property="og:title" content="Luma Kollektiv - Innovative Technologies">
-		<meta property="og:description" content="Freelance Technologists based in Germany and Sweden">
-		<meta property="og:image" content="/images/luma_logo.png">
-		<meta name="keywords" content="VR, VR Accessory, Virtual Reality Accessory, 
+        <!-- Google web font 
+   ================================================== -->
+        <link
+            href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300"
+            rel="stylesheet"
+            type="text/css"
+        />
+        <!-- SEO Metadata -->
+        <!-- SEO -->
+        <meta
+            property="og:title"
+            content="Luma Kollektiv - Innovative Technologies"
+        />
+        <meta
+            property="og:description"
+            content="Freelance Technologists based in Germany and Sweden"
+        />
+        <meta property="og:image" content="/images/luma_logo.png" />
+        <meta
+            name="keywords"
+            content="VR, VR Accessory, Virtual Reality Accessory, 
 							Virtual Reality Application, Virtual Reality Hardware, 
                      Cooling System, Cooling Interactive System, Web Development, Front End Development,
-                     Immersive Technologies, Innovative Technologies, POC Design">
-</head>
-<body>
-
-
-<!-- Preloader section
+                     Immersive Technologies, Innovative Technologies, POC Design"
+        />
+    </head>
+    <body>
+        <!-- Preloader section
 ================================================== -->
-<div class="preloader">
+        <div class="preloader">
+            <div class="sk-spinner sk-spinner-pulse"></div>
+        </div>
 
-	<div class="sk-spinner sk-spinner-pulse"></div>
-
-</div>
-
-
-<!-- Navigation section
+        <!-- Navigation section
 ================================================== -->
-<div class="nav-container">
-   <nav class="nav-inner transparent">
-
-      <div class="navbar">
-         <div class="container">
-            <div class="row">
-
-              <div class="brand">
-                <!--<a href="index.html"><span class="color1">home</span></a>-->
-              </div>
-
-              <div class="navicon">
-                <div class="menu-container">
-
-                  <div class="circle dark inline">
-                    <i class="icon ion-navicon"></i>
-                  </div>
-
-                  <div class="list-menu">
-                    <i class="icon ion-close-round close-iframe"></i>
-                    <div class="intro-inner">
-                      <ul id="nav-menu">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <!-- <li><a href="blog.html">Blog</a></li> -->
-                        <li><a href="contact.html">Contact</a></li>
-                      </ul>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-
-            </div>
-         </div>
-      </div>
-
-   </nav>
-</div>
-
-
-<!-- Header section
-================================================== -->
-<section id="header" class="header-index">
-	<div class="container">
-		<div class="row">
-
-			<div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8">
-          <div class="header-thumb">
-              <a href="index.html"><h1 class="wow fadeIn" data-wow-delay="1.6s">LUMA KOLLEKTIV</h1>
-              <h1 class="wow fadeIn" data-wow-delay="1.6s"><img src="images/luma_logo.png" style="width:80px;height:80px;"></h1></a>
-          </div>
-			</div>
-
-		</div>
-	</div>		
-</section>
-
-
-<!-- Portfolio section
-================================================== -->
-<section id="portfolio">
-   <div class="container">
-      <div class="row">
-
-         <div class="col-md-12 col-sm-12">
-            
-               <!-- iso section -->
-               <div class="iso-section wow fadeInUp" data-wow-delay="2.6s">
-                  <ul class="filter-wrapper clearfix">
-                           <li><a href="#" data-filter="*" class="selected opc-main-bg">All</a></li>
-                           <li><a href="#" class="opc-main-bg" data-filter=".vr">AR/VR</a></li>
-                           <li><a href="#" class="opc-main-bg" data-filter=".film">Film</a></li>
-                           <li><a href="#" class="opc-main-bg" data-filter=".research">Research</a></li>
-                           <li><a href="#" class="opc-main-bg" data-filter=".surveillance">Surveillance</a></li>
-                        
-                        </ul>
-
-
-
-                        <!-- iso box section -->
-                        <div class="iso-box-section wow fadeInUp" data-wow-delay="1s">
-                           <div class="iso-box-wrapper col4-iso-box">
-
-                            <div class="iso-box vr col-md-4 col-sm-6">
-                                 <div class="portfolio-thumb">
-                                       <img src="images/jpeg/delivar/orange.jpg" class="img-responsive" alt="Portfolio">
-                                       <div class="portfolio-overlay">
-                                             <div class="portfolio-item">
-                                                   <a href="delivar.html"><i class="fa fa-link"></i>
-                                                   </a>
-                                                   <h2>DelivAR</h2>
-                                             </div>
-                                       </div>
-                                 </div>
+        <div class="nav-container">
+            <nav class="nav-inner transparent">
+                <div class="navbar">
+                    <div class="container">
+                        <div class="row">
+                            <div class="brand">
+                                <!--<a href="index.html"><span class="color1">home</span></a>-->
                             </div>
-                            <div class="iso-box vr col-md-4 col-sm-6">
-                              <div class="portfolio-thumb">
-                                    <img src="images/jpeg/oort/oort.jpg" class="img-responsive" alt="Portfolio">
-                                    <div class="portfolio-overlay">
-                                       <div class="portfolio-item">
-                                                <a href="oort.html"><i class="fa fa-link"></i>
-                                                </a>
-                                                <h2>OORT</h2>
-                                       </div>
+
+                            <div class="navicon">
+                                <div class="menu-container">
+                                    <div class="circle dark inline">
+                                        <i class="icon ion-navicon"></i>
                                     </div>
-                              </div>
-                  </div>
-                              <div class="iso-box research col-md-4 col-sm-6">
-                                 <div class="portfolio-thumb">
-                                    <img src="images/jpeg/ece/ece_cover.jpg" class="img-responsive" alt="Portfolio">
-                                       <div class="portfolio-overlay">
-                                          <div class="portfolio-item">
-                                                <a href="http://hcc.uni-bremen.de/cognitive-vision/ece/" target="_blank"><i class="fa fa-link"></i></a>
-                                                <h2>ECE</h2>
-                                                <h3>Embodied Cognitive Experiences</h3>
-                                             </div>
-                                       </div>
-                                 </div>
-                              </div>
 
-                              <div class="iso-box surveillance col-md-4 col-sm-6">
-                                 <div class="portfolio-thumb">
-                                    <img src="images/jpeg/habitable-wifi/cover.jpg" class="img-responsive" alt="Portfolio">
-                                       <div class="portfolio-overlay">
-                                          <div class="portfolio-item">
-                                                <a href="habitable-wifi.html"><i class="fa fa-link"></i></a>
-                                                <h2>Habitable Wi-Fi</h2>
-                                             </div>
-                                       </div>
-                                 </div>
-                              </div>
-
-                               <div class="iso-box film branding col-md-4 col-sm-6">
-                                 <div class="portfolio-thumb">
-                                    <img src="images/jpeg/the_accused/cover.jpg" class="img-responsive" alt="Portfolio">
-                                       <div class="portfolio-overlay">
-                                          <div class="portfolio-item">
-                                                <a href="the-accused.html"><i class="fa fa-link"></i></a>
-                                                <h2>The Accused</h2>
-                                                <h3>Scene Recreation</h3>
-                                             </div>
-                                       </div>
-                                 </div> 
-                              </div>
-
-                              <div class="iso-box vr template col-md-4 col-sm-6">
-                                 <div class="portfolio-thumb">
-                                    <img src="images/jpeg/punkt/2.jpg" class="img-responsive" alt="Portfolio">
-                                       <div class="portfolio-overlay">
-                                          <div class="portfolio-item">
-                                                <a href="punkt.html"><i class="fa fa-link"></i></a>
-                                                <h2>Punkt.</h2>
-                                             </div>
-                                       </div>
-                                 </div>
-                              </div>
-
-                              <div class="iso-box film branding col-md-4 col-sm-6">
-                                 <div class="portfolio-thumb">
-                                    <img src="images/jpeg/amalia_video/1.jpg" class="img-responsive" alt="Portfolio">
-                                       <div class="portfolio-overlay">
-                                          <div class="portfolio-item">
-                                                <a href="amalia-kassai-portfolio.html"><i class="fa fa-link"></i></a>
-                                                <h2>Amalia Kassai</h2>
-                                             </div>
-                                       </div>
-                                 </div> 
-                              </div>
-
-                              
-
-                              <div class="iso-box vr branding col-md-4 col-sm-6">
-                                 <div class="portfolio-thumb">
-                                    <img src="images/jpeg/cinema_vr_flat/lahain/1.jpg" class="img-responsive" alt="Portfolio">
-                                       <div class="portfolio-overlay">
-                                          <div class="portfolio-item">
-                                                <a href="cinematic-techniques-in-180-vr.html"><i class="fa fa-link"></i></a>
-                                                <h2>Applying Cinematic Techniques in VR</h2>
-                                             </div>
-                                       </div>
-                                 </div>
-                              </div>
-
-                              
-
-                              <div class="iso-box film graphic col-md-4 col-sm-6">
-                                 <div class="portfolio-thumb">
-                                    <img src="images/jpeg/99h_2016/8.jpg" class="img-responsive" alt="Portfolio">
-                                       <div class="portfolio-overlay">
-                                          <div class="portfolio-item">
-                                                <a href="ein-letztes-mal.html"><i class="fa fa-link"></i></a>
-                                                <h2>Ein Letztes Mal</h2>
-                                             </div>
-                                       </div>
-                                 </div>
-                              </div>
-
-                              <div class="iso-box vr template col-md-4 col-sm-6">
-                                 <div class="portfolio-thumb">
-                                    <img src="images/jpeg/hour_glass/1.jpg" class="img-responsive" alt="Portfolio">
-                                       <div class="portfolio-overlay">
-                                          <div class="portfolio-item">
-                                                <a href="hourglass-vr-short-movie.html"><i class="fa fa-link"></i></a>
-                                                <h2>The Hourglass / VR Short Movie</h2>
-                                             </div>
-                                       </div>
-                                 </div>
-                              </div>
-
-                              <div class="iso-box research vr template col-md-4 col-sm-6">
-                                 <div class="portfolio-thumb">
-                                    <img src="images/jpeg/surround_sound_research/1.jpg" class="img-responsive" alt="Portfolio">
-                                       <div class="portfolio-overlay">
-                                          <div class="portfolio-item">
-                                                <a href="surrond-sound-in-vr.html"><i class="fa fa-link"></i></a>
-                                                <h2>surround sound in VR</h2>
-                                             </div>
-                                       </div>
-                                 </div>
-                              </div>
-
-                        
-                              <div class="iso-box vr branding col-md-4 col-sm-6">
-                                 <div class="portfolio-thumb">
-                                    <img src="images/jpeg/edge/1.jpg" class="img-responsive" alt="Portfolio">
-                                       <div class="portfolio-overlay">
-                                          <div class="portfolio-item">
-                                                <a href="the-edge-of-the-world-vr-short-movie.html"><i class="fa fa-link"></i></a>
-                                                <h2>the edge of the world / VR Short Movie</h2>
-                                             </div>
-                                       </div>
-                                 </div>
-                              </div>
-
-                              <div class="iso-box surveillance col-md-4 col-sm-6">
-                                 <div class="portfolio-thumb">
-                                    <img src="images/jpeg/do_you_agree/2.jpg" class="img-responsive" alt="Portfolio">
-                                       <div class="portfolio-overlay">
-                                          <div class="portfolio-item">
-                                                <a href="do-you-agree.html"><i class="fa fa-link"></i></a>
-                                                <h2>Do You Agree?</h2>
-                                             </div>
-                                       </div>
-                                 </div>
-                              </div>
-
-
-                              <div class="iso-box research branding col-md-4 col-sm-6">
-                                 <div class="portfolio-thumb">
-                                    <img src="images/jpeg/cinema_vr_research/3.jpg" class="img-responsive" alt="Portfolio">
-                                       <div class="portfolio-overlay">
-                                          <div class="portfolio-item">
-                                                <a href="visuo-auditory-research.html"><i class="fa fa-link"></i></a>
-                                                <h2>visuo-auditory research</h2>
-                                             </div>
-                                       </div>
-                                 </div>
-                              </div>
-
-
-
-                              
+                                    <div class="list-menu">
+                                        <i
+                                            class="icon ion-close-round close-iframe"
+                                        ></i>
+                                        <div class="intro-inner">
+                                            <ul id="nav-menu">
+                                                <li>
+                                                    <a href="index.html"
+                                                        >Home</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a href="about.html"
+                                                        >About</a
+                                                    >
+                                                </li>
+                                                <!-- <li><a href="blog.html">Blog</a></li> -->
+                                                <li>
+                                                    <a href="contact.html"
+                                                        >Contact</a
+                                                    >
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
 
-               </div>
-
-         </div>
-
-      </div>
-   </div>
-</section>
-
-<!-- Footer section
+        <!-- Header section
 ================================================== -->
-<footer>
-	<div class="container">
-		<div class="row">
+        <section id="header" class="header-index">
+            <div class="container">
+                <div class="row">
+                    <div
+                        class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8"
+                    >
+                        <div class="header-thumb">
+                            <a href="index.html"
+                                ><h1 class="wow fadeIn" data-wow-delay="1.6s">
+                                    LUMA KOLLEKTIV
+                                </h1>
+                                <h1 class="wow fadeIn" data-wow-delay="1.6s">
+                                    <img
+                                        src="images/luma_logo.png"
+                                        style="width: 80px; height: 80px;"
+                                    /></h1
+                            ></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-			<div class="col-md-12 col-sm-12">
-				<p class="wow fadeInUp"  data-wow-delay="0.3s">Copyright © 2020 Luma Kollektiv</p>
-				<ul class="social-icon wow fadeInUp"  data-wow-delay="0.6s">
-					 <!--<li><a href="#" class="fa fa-facebook"></a></li>-->
-          <li><a href="https://instagram.com/lumakollektiv" class="fa fa-instagram"></a></li>
-          <li><a href="https://vimeo.com/user57251515" class="fa fa-vimeo"></a></li>
-          <li><a href="https://www.youtube.com/channel/UCeAJvfzvz3oz5kZuc4kuyNg" class="fa fa-youtube"></a></li>
-				</ul>
-			</div>
-			
-		</div>
-	</div>
-</footer>
-
-
-<!-- Javascript 
+        <!-- Portfolio section
 ================================================== -->
-<script src="js/isotope.js"></script>
-<script src="js/imagesloaded.min.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/custom.js"></script>
+        <section id="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <!-- iso section -->
+                        <div
+                            class="iso-section wow fadeInUp"
+                            data-wow-delay="2.6s"
+                        >
+                            <ul class="filter-wrapper clearfix">
+                                <li>
+                                    <a
+                                        href="#"
+                                        data-filter="*"
+                                        class="selected opc-main-bg"
+                                        >All</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        href="#"
+                                        class="opc-main-bg"
+                                        data-filter=".vr"
+                                        >AR/VR</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        href="#"
+                                        class="opc-main-bg"
+                                        data-filter=".film"
+                                        >Film</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        href="#"
+                                        class="opc-main-bg"
+                                        data-filter=".research"
+                                        >Research</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        href="#"
+                                        class="opc-main-bg"
+                                        data-filter=".surveillance"
+                                        >Surveillance</a
+                                    >
+                                </li>
+                            </ul>
 
-</body>
+                            <!-- iso box section -->
+                            <div
+                                class="iso-box-section wow fadeInUp"
+                                data-wow-delay="1s"
+                            >
+                                <div class="iso-box-wrapper col4-iso-box">
+                                    <div class="iso-box vr col-md-4 col-sm-6">
+                                        <div class="portfolio-thumb">
+                                            <img
+                                                src="images/jpeg/delivar/orange.jpg"
+                                                class="img-responsive"
+                                                alt="Portfolio"
+                                            />
+                                            <div class="portfolio-overlay">
+                                                <div class="portfolio-item">
+                                                    <a href="delivar.html"
+                                                        ><i
+                                                            class="fa fa-link"
+                                                        ></i>
+                                                    </a>
+                                                    <h2>DelivAR</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="iso-box vr col-md-4 col-sm-6">
+                                        <div class="portfolio-thumb">
+                                            <img
+                                                src="images/jpeg/oort/oort.JPG"
+                                                class="img-responsive"
+                                                alt="Portfolio"
+                                            />
+                                            <div class="portfolio-overlay">
+                                                <div class="portfolio-item">
+                                                    <a href="oort.html"
+                                                        ><i
+                                                            class="fa fa-link"
+                                                        ></i>
+                                                    </a>
+                                                    <h2>OORT</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="iso-box research col-md-4 col-sm-6"
+                                    >
+                                        <div class="portfolio-thumb">
+                                            <img
+                                                src="images/jpeg/ece/ece_cover.jpg"
+                                                class="img-responsive"
+                                                alt="Portfolio"
+                                            />
+                                            <div class="portfolio-overlay">
+                                                <div class="portfolio-item">
+                                                    <a
+                                                        href="http://hcc.uni-bremen.de/cognitive-vision/ece/"
+                                                        target="_blank"
+                                                        ><i
+                                                            class="fa fa-link"
+                                                        ></i
+                                                    ></a>
+                                                    <h2>ECE</h2>
+                                                    <h3>
+                                                        Embodied Cognitive
+                                                        Experiences
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="iso-box surveillance col-md-4 col-sm-6"
+                                    >
+                                        <div class="portfolio-thumb">
+                                            <img
+                                                src="images/jpeg/habitable-wifi/cover.jpg"
+                                                class="img-responsive"
+                                                alt="Portfolio"
+                                            />
+                                            <div class="portfolio-overlay">
+                                                <div class="portfolio-item">
+                                                    <a
+                                                        href="habitable-wifi.html"
+                                                        ><i
+                                                            class="fa fa-link"
+                                                        ></i
+                                                    ></a>
+                                                    <h2>Habitable Wi-Fi</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="iso-box film branding col-md-4 col-sm-6"
+                                    >
+                                        <div class="portfolio-thumb">
+                                            <img
+                                                src="images/jpeg/the_accused/cover.jpg"
+                                                class="img-responsive"
+                                                alt="Portfolio"
+                                            />
+                                            <div class="portfolio-overlay">
+                                                <div class="portfolio-item">
+                                                    <a href="the-accused.html"
+                                                        ><i
+                                                            class="fa fa-link"
+                                                        ></i
+                                                    ></a>
+                                                    <h2>The Accused</h2>
+                                                    <h3>Scene Recreation</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="iso-box vr template col-md-4 col-sm-6"
+                                    >
+                                        <div class="portfolio-thumb">
+                                            <img
+                                                src="images/jpeg/punkt/2.jpg"
+                                                class="img-responsive"
+                                                alt="Portfolio"
+                                            />
+                                            <div class="portfolio-overlay">
+                                                <div class="portfolio-item">
+                                                    <a href="punkt.html"
+                                                        ><i
+                                                            class="fa fa-link"
+                                                        ></i
+                                                    ></a>
+                                                    <h2>Punkt.</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="iso-box film branding col-md-4 col-sm-6"
+                                    >
+                                        <div class="portfolio-thumb">
+                                            <img
+                                                src="images/jpeg/amalia_video/1.jpg"
+                                                class="img-responsive"
+                                                alt="Portfolio"
+                                            />
+                                            <div class="portfolio-overlay">
+                                                <div class="portfolio-item">
+                                                    <a
+                                                        href="amalia-kassai-portfolio.html"
+                                                        ><i
+                                                            class="fa fa-link"
+                                                        ></i
+                                                    ></a>
+                                                    <h2>Amalia Kassai</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="iso-box vr branding col-md-4 col-sm-6"
+                                    >
+                                        <div class="portfolio-thumb">
+                                            <img
+                                                src="images/jpeg/cinema_vr_flat/lahain/1.jpg"
+                                                class="img-responsive"
+                                                alt="Portfolio"
+                                            />
+                                            <div class="portfolio-overlay">
+                                                <div class="portfolio-item">
+                                                    <a
+                                                        href="cinematic-techniques-in-180-vr.html"
+                                                        ><i
+                                                            class="fa fa-link"
+                                                        ></i
+                                                    ></a>
+                                                    <h2>
+                                                        Applying Cinematic
+                                                        Techniques in VR
+                                                    </h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="iso-box film graphic col-md-4 col-sm-6"
+                                    >
+                                        <div class="portfolio-thumb">
+                                            <img
+                                                src="images/jpeg/99h_2016/8.jpg"
+                                                class="img-responsive"
+                                                alt="Portfolio"
+                                            />
+                                            <div class="portfolio-overlay">
+                                                <div class="portfolio-item">
+                                                    <a
+                                                        href="ein-letztes-mal.html"
+                                                        ><i
+                                                            class="fa fa-link"
+                                                        ></i
+                                                    ></a>
+                                                    <h2>Ein Letztes Mal</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="iso-box vr template col-md-4 col-sm-6"
+                                    >
+                                        <div class="portfolio-thumb">
+                                            <img
+                                                src="images/jpeg/hour_glass/1.jpg"
+                                                class="img-responsive"
+                                                alt="Portfolio"
+                                            />
+                                            <div class="portfolio-overlay">
+                                                <div class="portfolio-item">
+                                                    <a
+                                                        href="hourglass-vr-short-movie.html"
+                                                        ><i
+                                                            class="fa fa-link"
+                                                        ></i
+                                                    ></a>
+                                                    <h2>
+                                                        The Hourglass / VR Short
+                                                        Movie
+                                                    </h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="iso-box research vr template col-md-4 col-sm-6"
+                                    >
+                                        <div class="portfolio-thumb">
+                                            <img
+                                                src="images/jpeg/surround_sound_research/1.jpg"
+                                                class="img-responsive"
+                                                alt="Portfolio"
+                                            />
+                                            <div class="portfolio-overlay">
+                                                <div class="portfolio-item">
+                                                    <a
+                                                        href="surrond-sound-in-vr.html"
+                                                        ><i
+                                                            class="fa fa-link"
+                                                        ></i
+                                                    ></a>
+                                                    <h2>
+                                                        surround sound in VR
+                                                    </h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="iso-box vr branding col-md-4 col-sm-6"
+                                    >
+                                        <div class="portfolio-thumb">
+                                            <img
+                                                src="images/jpeg/edge/1.jpg"
+                                                class="img-responsive"
+                                                alt="Portfolio"
+                                            />
+                                            <div class="portfolio-overlay">
+                                                <div class="portfolio-item">
+                                                    <a
+                                                        href="the-edge-of-the-world-vr-short-movie.html"
+                                                        ><i
+                                                            class="fa fa-link"
+                                                        ></i
+                                                    ></a>
+                                                    <h2>
+                                                        the edge of the world /
+                                                        VR Short Movie
+                                                    </h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="iso-box surveillance col-md-4 col-sm-6"
+                                    >
+                                        <div class="portfolio-thumb">
+                                            <img
+                                                src="images/jpeg/do_you_agree/2.jpg"
+                                                class="img-responsive"
+                                                alt="Portfolio"
+                                            />
+                                            <div class="portfolio-overlay">
+                                                <div class="portfolio-item">
+                                                    <a href="do-you-agree.html"
+                                                        ><i
+                                                            class="fa fa-link"
+                                                        ></i
+                                                    ></a>
+                                                    <h2>Do You Agree?</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="iso-box research branding col-md-4 col-sm-6"
+                                    >
+                                        <div class="portfolio-thumb">
+                                            <img
+                                                src="images/jpeg/cinema_vr_research/3.jpg"
+                                                class="img-responsive"
+                                                alt="Portfolio"
+                                            />
+                                            <div class="portfolio-overlay">
+                                                <div class="portfolio-item">
+                                                    <a
+                                                        href="visuo-auditory-research.html"
+                                                        ><i
+                                                            class="fa fa-link"
+                                                        ></i
+                                                    ></a>
+                                                    <h2>
+                                                        visuo-auditory research
+                                                    </h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer section
+================================================== -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <p class="wow fadeInUp" data-wow-delay="0.3s">
+                            Copyright © 2020 Luma Kollektiv
+                        </p>
+                        <ul
+                            class="social-icon wow fadeInUp"
+                            data-wow-delay="0.6s"
+                        >
+                            <!--<li><a href="#" class="fa fa-facebook"></a></li>-->
+                            <li>
+                                <a
+                                    href="https://instagram.com/lumakollektiv"
+                                    class="fa fa-instagram"
+                                ></a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://vimeo.com/user57251515"
+                                    class="fa fa-vimeo"
+                                ></a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.youtube.com/channel/UCeAJvfzvz3oz5kZuc4kuyNg"
+                                    class="fa fa-youtube"
+                                ></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Javascript 
+================================================== -->
+        <script src="js/isotope.js"></script>
+        <script src="js/imagesloaded.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/custom.js"></script>
+    </body>
 </html>
