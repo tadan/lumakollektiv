@@ -425,6 +425,8 @@ a.icon {
     .header-thirteen
     .header-thumb
     .header-fifteen
+    .header-thumb 
+    .header-sixteen
     .header-thumb {
     padding: 32px 20px 32px 20px !important;
 }
@@ -441,6 +443,7 @@ a.icon {
 .header-ten,
 .header-eleven,
 .header-thirteen,
+.header-six
 .header.header-fifteen {
     height: 42vh !important;
     min-height: 420px;
